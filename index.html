@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allston Son Dakika</title>
+  <link rel="icon" type="image/png" href="allstonsondakika.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-bar">
+      <span>06.07.2026 Pazartesi</span>
+      <span>Allston, MA</span>
+    </div>
+
+    <div class="masthead">
+      <a class="brand-mark" href="index.html" aria-label="Allston Son Dakika ana sayfa">
+        <img src="allstonsondakika.png" alt="" class="site-emblem" />
+        <span class="site-logo">Allston Son Dakika</span>
+      </a>
+      <p>Yerel haber, gundem ve son dakika gelismeleri</p>
+    </div>
+
+    <nav class="section-nav" aria-label="Haber kategorileri">
+      <a href="index.html">Gundem</a>
+      <a href="index.html">Yerel</a>
+      <a href="index.html">Dunya</a>
+      <a href="index.html">Magazin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="lead-grid" aria-labelledby="latest-news">
+      <article class="lead-story" id="lead-story">
+        <p class="kicker">Son Dakika</p>
+        <p class="date">Yukleniyor</p>
+        <h1>Haberler yukleniyor</h1>
+        <p class="summary">Allston Son Dakika arsivi hazirlaniyor.</p>
+      </article>
+
+      <aside class="news-rail" aria-label="One cikan haberler">
+        <h2 id="latest-news">Son Haberler</h2>
+        <div id="news-rail-list" class="preview-list" aria-live="polite"></div>
+      </aside>
+    </section>
+
+    <section class="story-list" id="story-list" aria-label="Tum haberler" aria-live="polite">
+      <p class="loading-message">Haberler yukleniyor.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Allston Son Dakika</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

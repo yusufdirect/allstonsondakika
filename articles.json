@@ -1,0 +1,38 @@
+[
+  {
+    "title": "NATO zirvesi icin geldiler",
+    "date": "2026-07-06",
+    "summary": "Allstonlu liderler Istanbul'da goruntulendi. Zirve oncesi hareketli diplomasi trafigi yakindan takip ediliyor.",
+    "url": "articles/nato-zirvesi-icin-geldiler.html",
+    "category": "Gundem",
+    "featured": true,
+    "image": "images/nato.jpeg"
+  },
+  {
+    "title": "Allston'da ahlaksiz teklif",
+    "date": "2026-07-02",
+    "summary": "Sinan Tuncer'den Yusuf Tasyurt'a sasirtan teklif.",
+    "url": "articles/allstonda-ahlaksiz-teklif.html",
+    "category": "Magazin",
+    "featured": false,
+    "image": "images/ahlaksiz.jpeg"
+  },
+  {
+    "title": "Sinan Tuncer sevgilisinden ayrildi mi?",
+    "date": "2026-07-02",
+    "summary": "Sosyal medyada gundem olan iddialar hakkinda merak edilenler.",
+    "url": "articles/sinan-tuncer-sevgilisinden-ayrildi-mi.html",
+    "category": "Magazin",
+    "featured": false,
+    "image": "images/sevgilisinden.jpeg"
+  },
+  {
+    "title": "Allston sakinlerinden lagim kokusu sikayeti",
+    "date": "2026-07-02",
+    "summary": "Mahalle sakinleri yogun koku nedeniyle yetkililere cagri yapti.",
+    "url": "articles/allston-sakinlerinden-lagim-kokusu-sikayeti.html",
+    "category": "Yerel",
+    "featured": false,
+    "image": "images/tipa.jpeg"
+  }
+]
