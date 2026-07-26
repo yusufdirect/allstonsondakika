@@ -22,7 +22,13 @@ Example entry:
 
 Set `"featured": true` on the article that should appear as the large lead story. If more than one article is marked featured, the newest featured article is used.
 
-The `"image"` field is used on the homepage and should match the image placed below the headline in the article HTML file.
+The `"image"` field is used on the homepage and article page. For a local image, put the file in `images/` and use a path like:
+
+```json
+"image": "images/my-photo.jpg"
+```
+
+Article pages load their image from `articles.json`, so changing the `"image"` value there updates both the homepage and the article page. You do not need to edit the `<img>` path inside the article HTML after the article is listed in `articles.json`.
 
 The homepage must be opened through a local or hosted web server so it can read `articles.json`. The current local URL is:
 
