@@ -1,11 +1,29 @@
 [
+    {
+    "title": "OE'DEN SEVINDIREN HABER",
+    "date": "2026-07-26",
+    "summary": "OE'den gelen sevindirici haber.",
+    "url": "articles/oe-den-sevindiren-haber.html",
+    "category": "Gundem",
+    "featured": true,
+    "image": "images/oe-sevindiren.jpeg"
+    },
+    {
+    "title": "ALLSTON'DA DENIZ GOKTAS PROTESTOSU",
+    "date": "2026-07-15",
+    "summary": "Allston sakinleri Deniz Goktas'in tutuklanmasini protesto etmek icin sokaklara dokuldu.",
+    "url": "articles/allstonda-deniz-goktas-protestosu.html",
+    "category": "Gundem",
+    "featured": true,
+    "image": "images/protest.jpeg"
+  },
   {
     "title": "NATO zirvesi icin geldiler",
     "date": "2026-07-06",
     "summary": "Allstonlu liderler Istanbul'da goruntulendi. Zirve oncesi hareketli diplomasi trafigi yakindan takip ediliyor.",
     "url": "articles/nato-zirvesi-icin-geldiler.html",
     "category": "Gundem",
-    "featured": true,
+    "featured": false,
     "image": "images/nato.jpeg"
   },
   {
