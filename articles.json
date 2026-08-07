@@ -1,20 +1,30 @@
 [
     {
+    "title": "YUSUF TASYURT: CEM PULATHANELI HAYATIMI KURTARDI",
+    "date": "2026-08-08",
+    "summary": "Nova Roma mahlasiyla taninan unlu yazar ve ses sanatcisi Yusuf Tasyurt, medyaya olan sessizligini Allston Son Dakika ekibiyle yaptigi ozel raportaj ile bozdu. Sogutlucesme Marmaray Istasyonu'nda gerceklesen raportajda sanat, bilim, teknoloji ve post-modern-multi-cultural-performative-life-style uzerine ozenle hazirladigimiz 10 soruyu cevapladi.",
+    "url": "articles/on-soru-on-cevap.html",
+    "category": "Gundem",
+    "featured": true,
+    "image": "images/onsoru.jpeg"
+    },
+    {
     "title": "OE'DEN SEVINDIREN HABER",
     "date": "2026-07-26",
     "summary": "OE'den gelen sevindirici haber.",
     "url": "articles/oe-den-sevindiren-haber.html",
     "category": "Gundem",
-    "featured": true,
+    "featured": false,
     "image": "images/oe-sevindiren.jpg"
     },
+
     {
     "title": "ALLSTON'DA DENIZ GOKTAS PROTESTOSU",
     "date": "2026-07-15",
     "summary": "Allston sakinleri Deniz Goktas'in tutuklanmasini protesto etmek icin sokaklara dokuldu.",
     "url": "articles/allstonda-deniz-goktas-protestosu.html",
     "category": "Gundem",
-    "featured": true,
+    "featured": false,
     "image": "images/protest.jpeg"
   },
   {
