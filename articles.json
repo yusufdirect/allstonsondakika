@@ -63,14 +63,5 @@
     "category": "Magazin",
     "featured": false,
     "image": "images/sevgilisinden.jpeg"
-  },
-  {
-    "title": "Allston sakinlerinden lagim kokusu sikayeti",
-    "date": "2026-07-02",
-    "summary": "Mahalle sakinleri yogun koku nedeniyle yetkililere cagri yapti.",
-    "url": "articles/allston-sakinlerinden-lagim-kokusu-sikayeti.html",
-    "category": "Yerel",
-    "featured": false,
-    "image": "images/tipa.jpeg"
   }
 ]
