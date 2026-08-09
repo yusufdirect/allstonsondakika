@@ -8,13 +8,14 @@
     "featured": true,
     "image": "images/pide.jpg"
     },
+
     {
     "title": "YUSUF TASYURT: CEM PULATHANELI HAYATIMI KURTARDI",
     "date": "2026-08-07",
     "summary": "Nova Roma mahlasiyla taninan unlu yazar Yusuf Tasyurt, Allston Son Dakika'ya aciklamalarda bulundu. Tasyurt, 'Cem Pulathaneli hayatimi kurtardi' dedi.",
     "url": "articles/on-soru-on-cevap.html",
     "category": "Gundem",
-    "featured": true,
+    "featured": false,
     "image": "images/onsoru.jpeg"
     },
     {
