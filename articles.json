@@ -2,7 +2,7 @@
     {
     "title": "ALIBEY PIDESI SKANDALI",
     "date": "2026-08-08",
-    "summary": "Alibey Pidesi'nin servis edilip edilmemesi konusunda taraflar arasinda yeni bir görüş ayriligi yasaniyor.",
+    "summary": "Salon Figaro’da “Alibey Pidesi” krizi: “Ali kim?” sorusuna verdiği akılalmaz yanıtla düğünü karıştıran Salim Sinan Tuncer, sırra kadem bastı.",
     "url": "articles/alibey-pidesi-skandali.html",
     "category": "Gundem",
     "featured": true,
@@ -63,5 +63,14 @@
     "category": "Magazin",
     "featured": false,
     "image": "images/sevgilisinden.jpeg"
+  },
+  {
+    "title": "Allston sakinlerinden lagim kokusu sikayeti",
+    "date": "2026-07-02",
+    "summary": "Mahalle sakinleri yogun koku nedeniyle yetkililere cagri yapti.",
+    "url": "articles/allston-sakinlerinden-lagim-kokusu-sikayeti.html",
+    "category": "Yerel",
+    "featured": false,
+    "image": "images/tipa.jpeg"
   }
 ]
