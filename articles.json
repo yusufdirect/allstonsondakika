@@ -1,11 +1,20 @@
 [
     {
+    "title": "OE'DEN ZEHIR ZEMBEREK ACIKLAMALAR!",
+    "date": "2026-08-21",
+    "summary": "Onat Ergin, BU'nun TSA All-Star Kongresi'nden dislanmasini protesto edince olay cikti. Guvenlik tarafindan atilan Ergin, daha sonra kayiplara karisti.",
+    "url": "articles/oe-den-zehir-zemberek-aciklamalar.html",
+    "category": "Gundem",
+    "featured": true,
+    "image": "images/zehir.jpg"
+    },
+    {
     "title": "ALIBEY PIDESI SKANDALI",
     "date": "2026-08-08",
     "summary": "Salon Figaro’da “Alibey Pidesi” krizi: “Ali kim?” sorusuna verdiği akılalmaz yanıtla düğünü karıştıran Salim Sinan Tuncer, sırra kadem bastı.",
     "url": "articles/alibey-pidesi-skandali.html",
     "category": "Gundem",
-    "featured": true,
+    "featured": false,
     "image": "images/pide.jpg"
     },
 
