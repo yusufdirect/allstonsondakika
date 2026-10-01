@@ -298,6 +298,84 @@ body > main > article p,
   white-space: pre-line;
 }
 
+.language-switch {
+  margin-left: auto;
+  color: var(--accent);
+}
+
+.admin-shell {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.admin-shell h1 {
+  font-size: clamp(34px, 4vw, 52px);
+}
+
+.admin-head,
+.admin-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.admin-form,
+.admin-form fieldset {
+  display: grid;
+  gap: 16px;
+}
+
+.admin-form {
+  background: var(--surface);
+  border-top: 4px solid var(--ink);
+  padding: 24px;
+}
+
+.admin-form label {
+  display: grid;
+  gap: 7px;
+  font: 700 14px/1.4 Helvetica, Arial, sans-serif;
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form textarea {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: #fff;
+  color: var(--ink);
+  font: 400 16px/1.5 Helvetica, Arial, sans-serif;
+}
+
+.admin-form textarea { resize: vertical; }
+.admin-form small, .admin-shell td small { display: block; color: var(--muted); }
+.admin-form fieldset { min-width: 0; border: 1px solid var(--line); }
+.admin-form legend { font: 800 17px/1.4 Helvetica, Arial, sans-serif; }
+.form-grid, .translation-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.admin-form .check-label { display: flex; align-items: center; }
+.admin-form .check-label input { width: auto; }
+.admin-shell button, .action-link {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 0;
+  background: var(--ink);
+  color: white;
+  font: 700 14px/1 Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.admin-shell button:hover, .action-link:hover { background: var(--accent); color: white; }
+.admin-shell .text-button { background: none; color: var(--ink); }
+.admin-shell .danger, .danger-link { background: var(--accent); color: white; }
+.danger-link { display: inline-block; padding: 10px 16px; margin-top: 20px; }
+.form-error, .form-notice { padding: 12px; background: #fff0ed; border-left: 4px solid var(--accent); }
+.form-notice { background: #edf7ee; border-left-color: #348153; }
+.table-scroll { overflow-x: auto; }
+.admin-shell table { width: 100%; border-collapse: collapse; background: var(--surface); font: 14px/1.5 Helvetica, Arial, sans-serif; }
+.admin-shell th, .admin-shell td { padding: 12px; border-bottom: 1px solid var(--line); text-align: left; }
+
 .site-footer {
   padding: 22px 0 36px;
   border-top: 1px solid var(--line);
@@ -324,6 +402,8 @@ body > main > article p,
   .lead-grid {
     grid-template-columns: 1fr;
   }
+
+  .form-grid, .translation-grid { grid-template-columns: 1fr; }
 
   .lead-story {
     min-height: 360px;
