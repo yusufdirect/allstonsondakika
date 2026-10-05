@@ -47,7 +47,7 @@ export async function bootstrapAdmins() {
   const names = new Set();
   for (const user of users) {
     if (!/^[a-zA-Z0-9_.-]{3,64}$/.test(user.username ?? '')) throw new Error('Invalid admin username.');
-    if (typeof user.password !== 'string' || user.password.length < 16) throw new Error('Admin passwords must have at least 16 characters.');
+    if (typeof user.password !== 'string' || user.password.length < 6) throw new Error('Admin passwords must have at least 6 characters.');
     if (names.has(user.username.toLowerCase())) throw new Error('Duplicate admin username.');
     names.add(user.username.toLowerCase());
   }

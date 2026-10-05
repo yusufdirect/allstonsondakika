@@ -22,7 +22,7 @@ node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"
 
 Then run `npm ci` and `npm start`. The app creates its tables and imports the nine articles if the article table is empty. Open `http://localhost:3000/tr/` and `http://localhost:3000/en/`.
 
-To create the initial editors, set `ADMIN_BOOTSTRAP_JSON` before starting the app. It must be a JSON array of at least three distinct usernames and passwords of at least 16 characters. Example **structure only**:
+To create the initial editors, set `ADMIN_BOOTSTRAP_JSON` before starting the app. It must be a JSON array of at least three distinct usernames and passwords of at least 6 characters. Example **structure only**:
 
 ```json
 [{"username":"editor1","password":"replace-with-a-long-unique-password"},{"username":"editor2","password":"replace-with-another-long-password"},{"username":"editor3","password":"replace-with-a-third-long-password"}]
